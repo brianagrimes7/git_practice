@@ -1,3 +1,50 @@
 * {
     font-family: "Cairo", "Roboto Condensed";
+    background-color: lavender;
+    color: #422040;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bio {
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+
+.email-now-box {
+    
+}
+
+.contact-me-box {
+    
 }
